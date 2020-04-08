@@ -8,7 +8,10 @@ def nyc_pigeon_organizer(data)
     
       arr.each do |name|
         hash[name] = {}
-        
+       
+       if !hash[name].has_key?(key)
+         has_key[name][key] = {}
+       end
 end 
 end
 end
