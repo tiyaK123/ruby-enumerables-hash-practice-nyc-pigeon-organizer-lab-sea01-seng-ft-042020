@@ -9,5 +9,7 @@ def nyc_pigeon_organizer(data)
       arr.each do |name|
         hash[name] = {}
 end 
+end
+end
  hash
 end
