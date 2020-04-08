@@ -11,10 +11,10 @@ def nyc_pigeon_organizer(data)
         hash[name] = {}
        end 
        if !hash[name].has_key?(key)
-         has_key[name][key] = {}
+         hash[name][key] = {}
        end
        if !hash[name][key].include?(k)
-         has_key[name][key] << k.to_s 
+         hash[name][key] << k.to_s 
        end 
 end 
 end
