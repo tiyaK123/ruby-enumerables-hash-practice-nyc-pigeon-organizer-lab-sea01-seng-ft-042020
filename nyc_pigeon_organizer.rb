@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
     h.each do |k, arr|
     
       arr.each do |name|
+        if !hash[name].has_key?(key)
         hash[name] = {}
        
        if !hash[name].has_key?(key)
