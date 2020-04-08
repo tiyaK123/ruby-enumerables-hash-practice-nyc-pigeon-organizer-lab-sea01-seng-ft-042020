@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
        if !hash[name].has_key?(key)
          has_key[name][key] = {}
        end
+       
 end 
 end
 end
